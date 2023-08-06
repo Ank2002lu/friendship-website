@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friendship Day Greetings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>🌼 Happy Friendship Day, to my dear friend <span id="name"></span>! 🌼 </h1>
+        <p>Friendship is the sweetest gift, a treasure that never fades. On this Friendship Day, Naveen, I cherish the laughter, the memories, and the bond we share. Here's to us, and to a lifetime of friendship. Happy Friendship Day!</p>
+    </div>
+
+    <script type="text/javascript">
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
+        document.getElementById('name').textContent = name;
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

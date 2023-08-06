@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f4;
+    background-image: url('bg1.jpg'); /* Default background */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.8s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Display elements vertically */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: transparent; /* Fully transparent */
+}
+
+h1 {
+    font-size: 36px;
+    color: #c94444;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 60%;
+    font-size: 2em;
+    color:  #c94444;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Display form elements vertically */
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label, input[type=text] {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #42b983;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #319e75;
+}
